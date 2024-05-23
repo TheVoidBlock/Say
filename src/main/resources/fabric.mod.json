@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "say",
+  "version": "${version}",
+  "name": "Say",
+  "description": "Adds a client side command to make you say commands in chat.",
+  "authors": [
+    "TheVoidBlock"
+  ],
+  "contact": {
+    "homepage": "modrinth.com/mod/say",
+    "sources": "https://github.com/thevoidblock/say",
+    "issues": "https://github.com/thevoidblock/say/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/say/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thevoidblock.say.Say"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
