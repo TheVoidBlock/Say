@@ -17,7 +17,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.thevoidblock.say.Say"
+      "io.github.thevoidblock.say.Say"
     ]
   },
   "depends": {

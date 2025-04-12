@@ -1,6 +1,6 @@
-package com.thevoidblock.say;
+package io.github.thevoidblock.say;
 
-import com.thevoidblock.say.command.SayCommand;
+import io.github.thevoidblock.say.command.SayCommand;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
